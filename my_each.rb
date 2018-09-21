@@ -7,7 +7,7 @@ def my_each(collection) # put argument(s) here
   # end
   # array
   collection = [1, 2, 3, 4]
-  while collection < array.length
-yield (collection) do |i|
+  
+my_each(collection) do |i|
   puts i
 end
