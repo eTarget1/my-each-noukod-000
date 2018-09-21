@@ -10,7 +10,7 @@ def my_each(array) # put argument(s) here
   while  i < self.length
     yield self[i]
     i += 1
-  end 
+  end
     self[0]
   end
 end
